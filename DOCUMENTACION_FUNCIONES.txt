@@ -1,0 +1,134 @@
+Help on module FUNCIONES:
+
+NAME
+    FUNCIONES
+
+FUNCTIONS
+    activate()
+        Activar alarma
+        Envia a Arduino el caracter 'u' atraves del puerto serial que permite activar el sistema de alarmas
+        Imprime un mensaje en la consola
+
+    auto()
+        Modo automatico
+        Envia a Arduino el caracter 'y' atraves del puerto serial que permite poner el bombillo del comedor en modo automatico
+        Imprime un mensaje en la consola
+
+    autopark()
+        Modo automatico
+        Envia a Arduino el caracter 'z' atraves del puerto serial que permite poner la puerta del parqueadero en modo automatico
+        Imprime un mensaje en la consola
+
+    b_r_room_OFF()
+        Apagar luces cuarto y bano
+        Envia a Arduino el caracter 'n' atraves del puerto serial que permite apagar las luces de la sala del cuarto y bano
+        Imprime un mensaje en la consola
+
+    b_r_room_ON()
+
+    deactivate()
+        desactivar alarma
+        Envia a Arduino el caracter 'v' atraves del puerto serial que permite desactivar el sistema de alarmas
+        Imprime un mensaje en la consola
+
+    droom_OFF()
+        Apagar luz comedor
+        Envia a Arduino el caracter 'h' atraves del puerto serial que permite apagar la luz del comedor
+        Imprime un mensaje en la consola
+
+    droom_ON()
+        Prender luz comedor
+        Envia a Arduino el caracter 'g' atraves del puerto serial que permite encender la luz del comedor
+        Imprime un mensaje en la consola
+
+    fdoor_CLOSE()
+        Cerrar puerta principal
+        Envia a Arduino el caracter 'r' atraves del puerto serial que permite cerrar la puerta principal
+        Imprime un mensaje en la consola
+
+    fdoor_OPEN()
+        Abrir puerta principal
+        Envia a Arduino el caracter 'q' atraves del puerto serial que permite abrir la puerta principal
+        Imprime un mensaje en la consola
+
+    finlevel_1()
+        Mandar piso 1
+        Envia a Arduino el caracter 'd' atraves del puerto serialque permite mandar el ascensor al primer piso
+
+    finlevel_2()
+        Mandar piso 2
+        Envia a Arduino el caracter 'e' atraves del puerto serialque permite mandar el ascensor al segundo piso
+
+    finlevel_3()
+        Mandar piso 3
+        Envia a Arduino el caracter 'f' atraves del puerto serialque permite mandar el ascensor al tercer piso
+
+    gard_OFF()
+        Apagar luces jardin
+        Envia a Arduino el caracter 'p' atraves del puerto serial que permite apagar las luces del jardin
+        Imprime un mensaje en la consola
+
+    gard_ON()
+        Prender luces jardin
+        Envia a Arduino el caracter 'o' atraves del puerto serial que permite encender las luces del jardin
+        Imprime un mensaje en la consola
+
+    inilevel_1()
+        Pedir piso 1
+        Envia a Arduino el caracter 'a' atraves del puerto serialque permite pedir el ascensor al primer piso
+
+    inilevel_2()
+        Pedir piso 2
+        Envia a Arduino el caracter 'b' atraves del puerto serialque permite pedir el ascensor al segundo piso
+
+    inilevel_3()
+        Pedir piso 3
+        Envia a Arduino el caracter 'c' atraves del puerto serialque permite pedir el ascensor al tercer piso
+
+    kit_park_OFF()
+        Apagar luces cocina y parqueadero
+        Envia a Arduino el caracter 'j' atraves del puerto serial que permite apagar las luces de la cocina y parqueadero
+        Imprime un mensaje en la consola
+
+    kit_park_ON()
+        Prender luces cocina y parqueadero
+        Envia a Arduino el caracter 'i' atraves del puerto serial que permite encender las luces de la cocina y parqueadero
+        Imprime un mensaje en la consola
+
+    manu()
+        Modo manual
+        Envia a Arduino el caracter 'Z' atraves del puerto serial que permite poner el bombillo del comedor y la puerta del parqueadro en modo manual
+        Imprime un mensaje en la consola
+
+    pdoor_CLOSE()
+        Cerrar puerta parqueadero
+        Envia a Arduino el caracter 't' atraves del puerto serial que permite cerrar la puerta del parqueadero
+        Imprime un mensaje en la consola
+
+    pdoor_OPEN()
+        Abrir puerta parqueadero
+        Envia a Arduino el caracter 's' atraves del puerto serial que permite cerrar la puerta del parqueadero
+        Imprime un mensaje en la consola
+
+    tvroom_OFF()
+        Apagar luces sala de television
+        Envia a Arduino el caracter 'l' atraves del puerto serial que permite apagar las luces de la sala de television
+        Imprime un mensaje en la consola
+
+    tvroom_ON()
+        Prender luces sala de television
+        Envia a Arduino el caracter 'k' atraves del puerto serial que permite encender las luces de la sala de television
+        Imprime un mensaje en la consola
+
+    vent_OFF()
+        desactivar ventilacion
+        Envia a Arduino el caracter 'x' atraves del puerto serial que permite desactivar el sistema de ventilacion
+        Imprime un mensaje en la consola
+
+    vent_ON()
+        Activar ventilacion
+        Envia a Arduino el caracter 'w' atraves del puerto serial que permite activar el sistema de ventilacion
+        Imprime un mensaje en la consola
+
+FILE
+    c:\users\salov\eclipse-workspace\proyecto\funciones.py
